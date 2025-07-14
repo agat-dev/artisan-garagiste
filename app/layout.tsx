@@ -113,6 +113,7 @@ export default function RootLayout({
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#1a1a1a" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="facebook-domain-verification" content="v7sb3s1uz9j54einm2f3g3d4kbgqx9" />
 
         {/* Données structurées JSON-LD */}
         <script
