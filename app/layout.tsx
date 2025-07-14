@@ -59,14 +59,14 @@ export const metadata: Metadata = {
     title: "AutoExpert - Votre Garage de Confiance à Paris",
     description:
       "Expertise technique de pointe, équipements dernière génération et service personnalisé pour l'entretien et la réparation de votre véhicule. +15 ans d'expérience.",
-    url: "https://artisan-garagiste.lapetitevitrine.com",
+    url: "https://autoexpert-garage.fr",
     siteName: "AutoExpert",
     images: [
       {
-        url: "/mechanic-working-engine.png",
-        width: 800,
-        height: 600,
-        alt: "Intérieur moderne de l'atelier AutoExpert avec équipements professionnels - Garage automobile Paris",
+        url: "/opengraph-autoexpert.png",
+        width: 1200,
+        height: 630,
+        alt: "AutoExpert - Garage automobile professionnel à Paris - Atelier moderne avec équipements de diagnostic",
       },
     ],
     locale: "fr_FR",
@@ -77,7 +77,7 @@ export const metadata: Metadata = {
     title: "AutoExpert - Garage Automobile de Confiance",
     description:
       "Garage automobile à Paris 11ème. Expertise technique, équipements modernes, service personnalisé. Prise de rendez-vous en ligne.",
-    images: ["/garage-workshop-interior.png"],
+    images: ["/opengraph-autoexpert.png"],
     creator: "@autoexpert_paris",
   },
   robots: {
