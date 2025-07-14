@@ -127,7 +127,7 @@ export default function RootLayout({
                 "Garage automobile professionnel spécialisé en réparation, diagnostic électronique et entretien de véhicules",
               url: "https://autoexpert-garage.fr",
               logo: "https://autoexpert-garage.fr/logo.png",
-              image: "https://autoexpert-garage.fr/opengraph-image.png",
+              image: "https://autoexpert-garage.fr/garage-workshop-interior.png",
               telephone: "+33123456789",
               email: "contact@autoexpert.fr",
               address: {
