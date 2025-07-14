@@ -128,9 +128,9 @@ export default function RootLayout({
               name: "AutoExpert",
               description:
                 "Garage automobile professionnel spécialisé en réparation, diagnostic électronique et entretien de véhicules",
-              url: "https://autoexpert-garage.fr",
-              logo: "https://autoexpert-garage.fr/logo.png",
-              image: "https://autoexpert-garage.fr/garage-workshop-interior.png",
+              url: "https://artisan-garagiste.lapetitevitrine.com",
+              logo: "https://artisan-garagiste.lapetitevitrine.com/logo.png",
+              image: "https://artisan-garagiste.lapetitevitrine.com/garage-workshop-interior.png",
               telephone: "+33123456789",
               email: "contact@autoexpert.fr",
               address: {
