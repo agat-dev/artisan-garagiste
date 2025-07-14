@@ -59,7 +59,7 @@ export const metadata: Metadata = {
     title: "AutoExpert - Votre Garage de Confiance à Paris",
     description:
       "Expertise technique de pointe, équipements dernière génération et service personnalisé pour l'entretien et la réparation de votre véhicule. +15 ans d'expérience.",
-    url: "https://autoexpert-garage.fr",
+    url: "https://artisan-garagiste.lapetitevitrine.com",
     siteName: "AutoExpert",
     images: [
       {
