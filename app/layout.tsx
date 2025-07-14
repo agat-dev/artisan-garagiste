@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://autoexpert-garage.fr"),
+  metadataBase: new URL("https://artisan-garagiste.lapetitevitrine.com"),
   alternates: {
     canonical: "/",
   },
@@ -59,11 +59,11 @@ export const metadata: Metadata = {
     title: "AutoExpert - Votre Garage de Confiance à Paris",
     description:
       "Expertise technique de pointe, équipements dernière génération et service personnalisé pour l'entretien et la réparation de votre véhicule. +15 ans d'expérience.",
-    url: "https://autoexpert-garage.fr",
+    url: "https://artisan-garagiste.lapetitevitrine.com",
     siteName: "AutoExpert",
     images: [
       {
-        url: "/opengraph-autoexpert.png",
+        url: "/garage-workshop-interior.png",
         width: 1200,
         height: 630,
         alt: "AutoExpert - Garage automobile professionnel à Paris - Atelier moderne avec équipements de diagnostic",
@@ -77,7 +77,7 @@ export const metadata: Metadata = {
     title: "AutoExpert - Garage Automobile de Confiance",
     description:
       "Garage automobile à Paris 11ème. Expertise technique, équipements modernes, service personnalisé. Prise de rendez-vous en ligne.",
-    images: ["/opengraph-autoexpert.png"],
+    images: ["/garage-workshop-interior.png"],
     creator: "@autoexpert_paris",
   },
   robots: {
@@ -116,7 +116,7 @@ export default function RootLayout({
 
         {/* Facebook App ID pour OpenGraph */}
         <meta property="fb:app_id" content="123456789012345" />
-        <meta name="facebook-domain-verification" content="v7sb3s1uz9j54einm2f3g3d4kbgqx9" />
+       <meta name="facebook-domain-verification" content="v7sb3s1uz9j54einm2f3g3d4kbgqx9" />
 
         {/* Données structurées JSON-LD */}
         <script
