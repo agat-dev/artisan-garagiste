@@ -1,0 +1,378 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --jetour-navy: #1a1a1a;
+  --jetour-blue: #404040;
+  --jetour-light-blue: #666666;
+  --jetour-brown: #a62b0f;
+  --jetour-red: #8b1a00;
+  --jetour-orange: #ff6b35;
+  --jetour-light-orange: #ff8c42;
+  --jetour-orange-light: #ffb380;
+
+  /* Couleurs d'accessibilité avec contrastes améliorés */
+  --jetour-navy-light: #2d2d2d;
+  --jetour-blue-dark: #333333;
+  --jetour-brown-light: #c73510;
+  --jetour-text-on-dark: #ffffff;
+  --jetour-text-on-light: #1a1a1a;
+  --jetour-text-muted: #4a5568;
+  --jetour-border-light: #e2e8f0;
+  --jetour-text-orange: #ff6b35;
+}
+
+/* Smooth scroll pour toute la page */
+html {
+  scroll-behavior: smooth;
+}
+
+.bg-jetour-navy {
+  background-color: var(--jetour-navy);
+}
+.bg-jetour-blue {
+  background-color: var(--jetour-blue);
+}
+.bg-jetour-light-blue {
+  background-color: var(--jetour-light-blue);
+}
+.bg-jetour-brown {
+  background-color: var(--jetour-brown);
+}
+.bg-jetour-red {
+  background-color: var(--jetour-red);
+}
+
+.bg-jetour-orange {
+  background-color: var(--jetour-orange);
+}
+.bg-jetour-light-orange {
+  background-color: var(--jetour-light-orange);
+}
+
+/* Variantes avec meilleur contraste */
+.bg-jetour-navy-light {
+  background-color: var(--jetour-navy-light);
+}
+.bg-jetour-blue-dark {
+  background-color: var(--jetour-blue-dark);
+}
+.bg-jetour-brown-light {
+  background-color: var(--jetour-brown-light);
+}
+
+.text-jetour-navy {
+  color: var(--jetour-navy);
+}
+.text-jetour-blue {
+  color: var(--jetour-blue);
+}
+.text-jetour-light-blue {
+  color: var(--jetour-light-blue);
+}
+.text-jetour-brown {
+  color: var(--jetour-brown);
+}
+.text-jetour-red {
+  color: var(--jetour-red);
+}
+
+.text-jetour-orange {
+  color: var(--jetour-orange);
+}
+.text-jetour-light-orange {
+  color: var(--jetour-light-orange);
+}
+
+/* Textes avec contraste amélioré */
+.text-jetour-navy-accessible {
+  color: var(--jetour-navy);
+  font-weight: 600; /* Améliore la lisibilité */
+}
+.text-jetour-blue-accessible {
+  color: var(--jetour-blue-dark);
+  font-weight: 500;
+}
+.text-on-dark {
+  color: var(--jetour-text-on-dark);
+}
+.text-on-light {
+  color: var(--jetour-text-on-light);
+}
+.text-muted-accessible {
+  color: var(--jetour-text-muted);
+  font-weight: 500;
+}
+
+.border-jetour-navy {
+  border-color: var(--jetour-navy);
+}
+.border-jetour-blue {
+  border-color: var(--jetour-blue);
+}
+.border-jetour-brown {
+  border-color: var(--jetour-brown);
+}
+.border-jetour-orange {
+  border-color: var(--jetour-orange);
+}
+.border-accessible {
+  border-color: var(--jetour-border-light);
+}
+
+.hover\:bg-jetour-blue:hover {
+  background-color: var(--jetour-blue);
+}
+.hover\:bg-jetour-red:hover {
+  background-color: var(--jetour-red);
+}
+.hover\:bg-jetour-orange:hover {
+  background-color: var(--jetour-orange);
+}
+.hover\:text-jetour-light-blue:hover {
+  color: var(--jetour-light-blue);
+}
+.hover\:text-jetour-orange:hover {
+  color: var(--jetour-orange);
+}
+
+/* Focus states pour l'accessibilité */
+.focus-accessible:focus {
+  outline: 3px solid var(--jetour-orange);
+  outline-offset: 2px;
+}
+
+.focus-accessible:focus-visible {
+  outline: 3px solid var(--jetour-orange);
+  outline-offset: 2px;
+}
+
+/* Amélioration des boutons pour l'accessibilité */
+.btn-accessible {
+  font-family: var(--font-body);
+  font-weight: 600;
+  min-height: 44px; /* Taille minimum recommandée */
+  padding: 12px 24px;
+  border-radius: 8px;
+  transition: all 0.2s ease-in-out;
+  letter-spacing: 0.025em;
+}
+
+.btn-accessible:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.btn-accessible:active {
+  transform: translateY(0);
+}
+
+/* Amélioration des liens */
+.link-accessible {
+  font-family: var(--font-body);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+  transition: all 0.2s ease-in-out;
+  font-weight: 500;
+}
+
+.link-accessible:hover {
+  text-decoration-thickness: 3px;
+}
+
+/* Classes typographiques personnalisées */
+.font-heading {
+  font-family: var(--font-heading);
+}
+
+.font-body {
+  font-family: var(--font-body);
+}
+
+.font-mono {
+  font-family: var(--font-mono);
+}
+
+/* Suppression des encadrés/soulignements pour les liens de navigation */
+nav a {
+  text-decoration: none !important;
+  outline: none !important;
+}
+
+nav a:hover {
+  text-decoration: none !important;
+  outline: none !important;
+}
+
+nav a:focus {
+  text-decoration: none !important;
+  outline: none !important;
+}
+
+nav a:active {
+  outline: none !important;
+}
+
+nav a:focus-visible {
+  outline: none !important;
+}
+
+/* Styles typographiques spéciaux - Plus techniques et professionnels */
+.heading-display {
+  font-family: var(--font-heading);
+  font-weight: 900;
+  letter-spacing: -0.04em;
+  line-height: 1.05;
+  text-transform: uppercase;
+  font-feature-settings: "ss01" on, "ss02" on;
+}
+
+.heading-section {
+  font-family: var(--font-heading);
+  font-weight: 800;
+  letter-spacing: -0.025em;
+  line-height: 1.1;
+  text-transform: uppercase;
+  font-feature-settings: "ss01" on;
+}
+
+.heading-card {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+.brand-name {
+  font-family: var(--font-heading);
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  font-feature-settings: "ss01" on, "ss02" on;
+}
+
+.text-technical {
+  font-family: var(--font-mono);
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  font-size: 0.85em;
+  text-transform: uppercase;
+}
+
+.text-elegant {
+  font-family: var(--font-body);
+  font-weight: 400;
+  letter-spacing: 0.005em;
+  line-height: 1.6;
+}
+
+.text-emphasis {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+}
+
+body {
+  font-family: var(--font-body);
+  line-height: 1.6; /* Améliore la lisibilité */
+  font-weight: 400;
+  letter-spacing: 0.005em;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 0 0% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 3.9%;
+    --primary: 0 0% 9%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 0 0% 96.1%;
+    --secondary-foreground: 0 0% 9%;
+    --muted: 0 0% 96.1%;
+    --muted-foreground: 0 0% 45.1%;
+    --accent: 0 0% 96.1%;
+    --accent-foreground: 0 0% 9%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 89.8%;
+    --input: 0 0% 89.8%;
+    --ring: 0 0% 3.9%;
+    --chart-1: 12 76% 61%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+    --radius: 0.5rem;
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+  .dark {
+    --background: 0 0% 3.9%;
+    --foreground: 0 0% 98%;
+    --card: 0 0% 3.9%;
+    --card-foreground: 0 0% 98%;
+    --popover: 0 0% 3.9%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 0 0% 98%;
+    --primary-foreground: 0 0% 9%;
+    --secondary: 0 0% 14.9%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 0 0% 14.9%;
+    --muted-foreground: 0 0% 63.9%;
+    --accent: 0 0% 14.9%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 14.9%;
+    --input: 0 0% 14.9%;
+    --ring: 0 0% 83.1%;
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Ajustement pour les utilisateurs qui préfèrent les animations réduites */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
