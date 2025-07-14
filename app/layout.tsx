@@ -63,7 +63,7 @@ export const metadata: Metadata = {
     siteName: "AutoExpert",
     images: [
       {
-        url: "/garage-workshop-interior.png",
+        url: "/mechanic-working-engine.png",
         width: 800,
         height: 600,
         alt: "Intérieur moderne de l'atelier AutoExpert avec équipements professionnels - Garage automobile Paris",
